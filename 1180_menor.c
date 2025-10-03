@@ -3,14 +3,12 @@
 int main() {
     int N, i, posicaoMenor;
     
-    printf("Digite o tamanho do vetor: ");
     scanf("%d", &N);
     
     int X[N]; 
     
 
     for (i = 0; i < N; i++) {
-        printf("Digite o valor de X[%d]: ", i);
         scanf("%d", &X[i]);
     }
     
